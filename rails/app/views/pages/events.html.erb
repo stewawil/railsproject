@@ -1,0 +1,35 @@
+<html>
+
+<body>
+  <div class="header">
+  <a id="name">when3meet</a>
+</div>
+  <p class="signin" align="center">Events</p>
+<% if current_user.id == 1 %>
+  <div class="main2">
+    <form class="form2">
+      <a class="signin" onclick="window.location = 'schedule';" align="center">Client Meeting</a>
+</div>
+<% end %>
+<% if current_user.id == 1 %>
+<div class="main2">
+  <form class="form2">
+    <a style ="position: relative; top: 20%"class="signin" onclick="window.location = 'events';" align="center">Bowling</a>
+</div>
+<% end %>
+<% if current_user.id == 2 %>
+<div class="main2">
+  <form class="form2">
+    <a style ="position: relative; top: 20%"class="signin" onclick="window.location = 'schedule';" align="center">Group Project</a>
+</div>
+<% end %>
+
+<div class="main3">
+  <form class="form2">
+    <a style ="position: relative; top: 17%; left:24%; color: #5555FF;"class="signin" onclick="window.location = 'events*';" align="center">Create New Event</a>
+    <input style ="position: relative; right:14%; top:60%; color: #5555FF; width:20%" type="text" align="center" placeholder="Add Title">
+  </div>
+
+</body>
+
+</html>

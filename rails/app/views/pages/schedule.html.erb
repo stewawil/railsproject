@@ -1,0 +1,175 @@
+<html>
+
+
+<body>
+
+  <div class="header">
+  <a id="name">when3meet</a>
+  </div>
+  <p class="signin" align="center">Client Meeting</p>
+
+  <table>
+  	<tr>
+  		<th>Time</th>
+  		<th>Monday</th>
+  		<th>Tuesday</th>
+  		<th>Wednesday</th>
+  		<th>Thursday</th>
+  		<th>Friday</th>
+  		<th>Saturday</th>
+  		<th>Sunday</th>
+  	</tr>
+  	<tr>
+  		<th>7</th>
+  		<th></th>
+  		<th class='one'></th>
+  		<th></th>
+  		<th></th>
+  		<th></th>
+  		<th></th>
+  		<th></th>
+  	</tr>
+  	<tr>
+  		<th>8</th>
+  		<th class='one'></th>
+  		<th class='two'></th>
+  		<th></th>
+  		<th></th>
+  		<th></th>
+  		<th></th>
+  		<th></th>
+    </tr>
+<tr>
+  <th>9</th>
+  <th class='two'></th>
+  <th class='three'></th>
+  <th></th>
+  <th></th>
+  <th></th>
+  <th></th>
+  <th></th>
+</tr>
+<tr>
+  <th>10</th>
+  <th class='three'></th>
+  <th class='two'></th>
+  <th></th>
+  <th></th>
+  <th></th>
+  <th></th>
+  <th></th>
+</tr>
+<tr>
+  <th>11</th>
+  <th class='two'></th>
+  <th></th>
+  <th></th>
+  <th></th>
+  <th></th>
+  <th></th>
+  <th></th>
+</tr>
+<tr>
+  <th>12</th>
+  <th></th>
+  <th></th>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th></th>
+	</tr>
+	<tr>
+		<th>1</th>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th></th>
+	</tr>
+	<tr>
+		<th>2</th>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th></th>
+	</tr>
+	<tr>
+		<th>3</th>
+		<th></th>
+    <th></th>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th></th>
+	</tr>
+	<tr>
+		<th>4</th>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th></th>
+	</tr>
+	<tr>
+		<th>5</th>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th></th>
+	</tr>
+	<tr>
+		<th>6</th>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th></th>
+    <th></th>
+		<th></th>
+	</tr>
+	<tr>
+		<th>7</th>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th></th>
+	</tr>
+
+
+</table>
+
+
+<div class="main2" style="position: relative; margin-top: 53%; margin-left: 22%">
+  <form class="form2">
+
+    <input style= "position: relative; bottom: 0.37em;right: 3em;"class="username " type="text" align="center" placeholder="Invite User email"></input>
+        <a style= "position: relative; bottom: 3.3em;left: 7em;"class= "buttontext" onclick="window.location = 'schedule';" align="center">Invite</a>
+  </div>
+  <div class="main2" style="position: relative; margin-left: 22%">
+    <form class="form2">
+      <a class= "buttontext" style = "position:relative; padding-left: 23%; top:20%;" onclick="window.location = 'editSched';" align="center">Change Availability</a>
+    </div>
+    <% if current_user.id == 1 %>
+    <p>Users Scheduled: wilsonstewart13@gmail.com</p>
+    <% end %>
+    <% if current_user.id == 2 %>
+    <p>Users Scheduled: wilsonstewart13@gmail.com, wilsonstewart16@gmail.com</p>
+    <% end %>
+</body>
+
+</html>

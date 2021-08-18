@@ -1,0 +1,141 @@
+
+
+body {
+  background-color: #EEEEEE;
+  font-family: 'Ubuntu', serif;
+}
+a {
+  color: #444444;
+}
+.header {
+  font-size: 20px;
+  float: left;
+  color: black;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  float: none;
+  display: inline;
+}
+#events,#logout{
+  float: right;
+  padding-right: 20px;
+}
+#events:hover,#logout:hover{
+  background-color: #BBBBDD;
+  border-radius: 3px;
+  padding: 5px;
+}
+#name {
+  font-size: 25px;
+  font-weight: bold;
+}
+.signin {
+    font-size: 25px;
+    color: #002978;
+    padding-top: 38px;
+}
+.username,.password {
+  width: 80%;
+  margin-bottom: 45px;
+  margin-left: 45px;
+  padding: 9px 15px;
+  background: #DFDFDF;
+  border: 3px solid rgba(0, 0, 0, 0.05);
+  color: #404040;
+  border-radius: 18px;
+  outline: none;
+  box-sizing: border-box;
+  font-size: 15px;
+  text-align: center;
+}
+.submit {
+  border-radius: 4em;
+  color: #FFFFFF;
+  background: linear-gradient(to left, #002978, #777777);
+  padding: 9px 38px 9px 38px;
+  margin-left: 37%;
+  font-size: 13px;
+}
+.signup {
+  text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+  color: #E1BEE7;
+  padding-top: 15px;
+  margin-left: 42%;
+  width: 78px;
+}
+.form1 {
+  padding-top: 38px;
+}
+.form2 {
+  padding-top: 11px;
+}
+ .password:focus,.username:focus{
+  border: 3px solid;
+}
+.img1{
+  position:absolute;
+  left: 13em;
+}
+.img2{
+  position:absolute;
+  top: 9em;
+  left: 12.5em;
+}
+
+.main {
+  background-color: #FEFEFE;
+  margin: 7em auto;
+  height: 27em;
+  width: 25em;
+  border-radius: 1em;
+  box-shadow: 1px 10px 30px 3px rgba(0, 0, 0, 0.1);
+    }
+.main2{
+  background-color: #FEFEFE;
+  margin: 2em auto;
+  height: 3.1em;
+  width: 25em;
+  border-radius: 1em;
+  box-shadow: 1px 10px 30px 3px rgba(0, 0, 0, 0.1);
+}
+.main3 {
+  background-color: #FEFEFE;
+  margin: 2em auto;
+  height: 10em;
+  width: 25em;
+  border-radius: 1em;
+  box-shadow: 1px 10px 30px 3px rgba(0, 0, 0, 0.1);
+}
+
+.buttontext{
+  font-size: 160%;
+  padding-left:37%;
+  color: #5555FF;
+}
+
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table{
+  float:left;
+  position: relative;
+  left:3%;
+  border-radius:10px;
+}
+
+th{
+  width: 5em;
+}
+
+.one {
+	background-color:lightblue;
+}
+.two {
+	background-color:lightblue;
+}
+.three {
+	background-color:lightblue;
+}
